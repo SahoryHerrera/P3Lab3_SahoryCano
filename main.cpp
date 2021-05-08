@@ -16,6 +16,7 @@ void inicializar_matriz(char**& , int, int);
 void instanciar_matriz(char**& , int, int);
 void liberar_matriz(char**& , int);
 void imprimir(char**& , int , int );
+//-----------------------------------------
 
 
 //Metodo de menu
@@ -165,3 +166,4 @@ void imprimir(char**& matriz, int filas, int columnas) {
     }//fin for
     cout << endl;
 }//fin metodo
+
